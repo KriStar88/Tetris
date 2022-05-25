@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tetris", "Tetris.csproj", "{567E9379-884B-463F-979C-EE8F32813C03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "..\Collection\Collection.csproj", "{60D36535-168C-4698-A02F-059D58227D3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{567E9379-884B-463F-979C-EE8F32813C03} = {567E9379-884B-463F-979C-EE8F32813C03}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
